@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+table{
+    
+    margin-top: 30px;
+    margin-left: 300px;
+    border-color: rgb(255, 0, 0);
+    border-radius:10px ;
+    text-align: center;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+header{
+    margin-top: 30px;
+    text-align: center;
+}

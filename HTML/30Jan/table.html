@@ -1,0 +1,68 @@
+<html>
+    <title>
+        table
+    </title>
+    <style>
+        table,th,td{
+            border: 2px solid peru;
+            border-radius: 10px;
+            margin-top: 100px;
+            border-spacing: 5px;
+            width: 80%;
+            table-layout: fixed;
+        }
+        th,td
+        {
+            padding: 5px;
+            text-align:center;
+        }
+        th{
+            background-color: rgb(155, 241, 241);
+        }
+        td
+        {
+            background-color: rgb(255, 202, 202);
+        }
+        header{
+            text-align: center;
+        }
+        caption{
+            font-style: italic;
+            font-size: 50px;
+        }
+    </style>
+    <header>
+        <h1>Tables</h1>
+    </header>
+    <table border="1">
+        <caption>Student Logo ka Info</caption>
+    <tr><th colspan="4"><b>Student Details</b></th></tr>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Location</th>
+            <th>Board</th>
+        </tr>
+        <tr>
+            <td style="text-align: left;">Sahil</td>
+            <td>18</td>
+            <td>Thane</td>
+            <td rowspan="4"><strong>HSC</strong></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">Ayush</td>
+            <td>18</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; " sty>Thati</td>
+            <td>18</td>
+            <td>Prabhadevi</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">Alokraj</td>
+            <td>18</td>
+            <td>Pune</td>
+        </tr>
+    </table>
+</html>
